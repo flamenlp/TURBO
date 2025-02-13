@@ -86,7 +86,7 @@ class MOREPlusDataset(Dataset):
 
         caption = " ".join(text) #Section 4.3
         explanation = row["explanation"]
-        target_of_sarcasm = row["cause"]
+        target_of_sarcasm = row["target_of_sarcasm"]
 
         max_length = self.CFG.max_len
         
